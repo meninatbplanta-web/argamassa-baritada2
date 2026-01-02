@@ -55,6 +55,7 @@
 {
   "imports": {
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-dom/client": "https://esm.sh/react-dom@^19.2.3/client",
     "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
     "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
@@ -64,6 +65,31 @@
 </script>
 </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+        <!-- SEO Fallback Content (Server Side Rendering Simulation) -->
+        <div style="padding: 20px; font-family: sans-serif; line-height: 1.6;">
+            <h1 style="color: #1E3A8A;">Argamassa Baritada Marketplace</h1>
+            <p>Conectamos você aos melhores fornecedores de proteção radiológica do Brasil.</p>
+            
+            <h2>Serviços e Cidades</h2>
+            <ul>
+                <li><a href="/ferramentas/calculadora">Calculadora de Argamassa Baritada</a></li>
+                <li><a href="/clinicas-odontologicas">Para Dentistas e Clínicas Odontológicas</a></li>
+                <li><a href="/hospitais">Para Hospitais e Clínicas</a></li>
+                <li><a href="/industrias">Proteção Radiológica Industrial</a></li>
+            </ul>
+
+            <h3>Cidades Atendidas</h3>
+            <ul>
+                <li><a href="/argamassa-baritada-em-sao-paulo">São Paulo - SP</a></li>
+                <li><a href="/argamassa-baritada-em-rio-de-janeiro">Rio de Janeiro - RJ</a></li>
+                <li><a href="/argamassa-baritada-em-belo-horizonte">Belo Horizonte - MG</a></li>
+                <li><a href="/argamassa-baritada-em-manaus">Manaus - AM</a></li>
+                <li><a href="/argamassa-baritada-em-brasilia">Brasília - DF</a></li>
+            </ul>
+            <p>Carregando aplicação...</p>
+        </div>
+    </div>
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
