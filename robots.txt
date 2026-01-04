@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://argamassabaritada.com/sitemap.xml
+Sitemap: https://marketsite.com.br/sitemap.xml

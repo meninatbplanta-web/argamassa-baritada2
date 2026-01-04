@@ -1,0 +1,338 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://marketsite.com.br/#website",
+      "url": "https://marketsite.com.br/",
+      "name": "Argamassa Baritada Marketplace",
+      "description": "Marketplace líder em proteção radiológica. Cotações e cálculo de materiais.",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://marketsite.com.br/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://marketsite.com.br/#organization",
+      "name": "Argamassa Baritada Marketplace",
+      "url": "https://marketsite.com.br/",
+      "logo": "https://marketsite.com.br/assets/images/logo.png",
+      "description": "Marketplace líder em proteção radiológica. Cotações de argamassa baritada com fornecedores certificados.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      },
+      "priceRange": "R$ 24,99 - R$ 34,50",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://marketsite.com.br/#product",
+      "name": "Argamassa Baritada para Proteção Radiológica",
+      "description": "Argamassa baritada de alta densidade (3.2 g/cm³) para blindagem de salas de Raio-X, Tomografia, Mamografia e outras aplicações de proteção radiológica. Certificada CNEN, atende normas ABNT NBR IEC 61331-1.",
+      "image": [
+        "https://marketsite.com.br/images/argamassa-baritada-saco.jpg",
+        "https://marketsite.com.br/images/argamassa-baritada-aplicacao.jpg",
+        "https://marketsite.com.br/images/argamassa-baritada-acabamento.jpg"
+      ],
+      "brand": {
+        "@type": "Brand",
+        "name": "Múltiplos Fornecedores Certificados CNEN"
+      },
+      "category": "Materiais de Construção > Proteção Radiológica",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "24.99",
+        "highPrice": "34.50",
+        "priceCurrency": "BRL",
+        "offerCount": "5",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31",
+        "url": "https://marketsite.com.br/",
+        "seller": {
+          "@type": "Organization",
+          "name": "MarketSite Argamassa Baritada"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "150.00",
+            "currency": "BRL"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "DAY"
+            }
+          }
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dr. Carlos Silva"
+          },
+          "datePublished": "2025-12-15",
+          "reviewBody": "Excelente serviço! Recebi 3 orçamentos em menos de 2 horas. A argamassa chegou em 24h e a blindagem ficou perfeita. O laudo foi aprovado na primeira tentativa pela Vigilância Sanitária.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dra. Ana Paula Mendes"
+          },
+          "datePublished": "2025-11-28",
+          "reviewBody": "Ótima experiência. A calculadora ajudou muito a estimar a quantidade correta. Economizei bastante comparando os orçamentos. Recomendo!",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Roberto Almeida"
+          },
+          "datePublished": "2025-11-10",
+          "reviewBody": "Produto de qualidade, entrega rápida. A densidade está conforme especificado (3.2 g/cm³). Aplicação foi tranquila seguindo as orientações.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Eng. Marcos Ferreira"
+          },
+          "datePublished": "2025-10-22",
+          "reviewBody": "Excelente custo-benefício. Muito mais econômico que chumbo e com a mesma eficiência. Certificação CNEN em dia.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Clínica OdontoVida"
+          },
+          "datePublished": "2025-10-05",
+          "reviewBody": "Atendimento rápido e profissional. Blindamos nossa sala de panorâmica e o resultado foi perfeito. Preço justo.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dr. Paulo Henrique"
+          },
+          "datePublished": "2025-09-18",
+          "reviewBody": "Bom produto, entrega dentro do prazo. A única observação é que precisei de mais sacos do que a calculadora estimou, mas nada significativo.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Hospital São Lucas"
+          },
+          "datePublished": "2025-09-01",
+          "reviewBody": "Compramos para nossa sala de tomografia. Produto de qualidade, certificações em ordem. Recomendamos.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Arq. Juliana Costa"
+          },
+          "datePublished": "2025-08-12",
+          "reviewBody": "Especifico este produto em todos os meus projetos hospitalares. Confiável e com bom suporte técnico.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Densidade",
+          "value": "3.2 g/cm³"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Composição",
+          "value": "Sulfato de Bário, Aglomerantes Hidráulicos, Agregados Minerais"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Rendimento",
+          "value": "20-25 kg/m² por cm de espessura"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Validade",
+          "value": "12 meses"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Certificação",
+          "value": "CNEN, ABNT NBR IEC 61331-1"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Embalagem",
+          "value": "Saco de 25kg"
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Calculadora de Argamassa Baritada",
+      "operatingSystem": "Web",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      },
+      "description": "Ferramenta gratuita para cálculo de consumo de argamassa baritada baseada em área e espessura."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual o rendimento da argamassa baritada por m²?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O rendimento médio é de 20kg a 25kg por metro quadrado para cada 1cm de espessura aplicada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Argamassa baritada substitui o chumbo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim! A argamassa baritada é a substituta moderna e ecológica do chumbo em lençol, oferecendo proteção equivalente com menor custo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Precisa de cimento comum na mistura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A argamassa baritada já vem pronta para uso (pré-misturada), sendo necessário apenas adicionar água conforme a recomendação do fabricante."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a validade da argamassa baritada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O produto tem validade de 12 meses a partir da data de fabricação, desde que armazenado em local seco e coberto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual o preço da argamassa baritada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O preço varia entre R$ 24,99 e R$ 34,50 por saco de 25kg, dependendo do fornecedor, região e quantidade. Use nossa calculadora para estimar o investimento total do seu projeto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual o prazo de entrega?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O prazo médio de entrega é de 24 a 48 horas para as principais capitais. Consulte disponibilidade para sua região."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://marketsite.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Argamassa Baritada",
+          "item": "https://marketsite.com.br/#product"
+        }
+      ]
+    }
+  ]
+}
